@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="maven">
+  <test  name="mobiles">
+    <classes>
+      
+      <class name="mobiles.browser"/>
+      <class name="mobiles.homepage"/>
+      <class name="mobiles.contact"/>
+      <class name="mobiles.order"/>
+      <class name="mobiles.signup"/>
+     
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
